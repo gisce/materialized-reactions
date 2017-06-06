@@ -59,6 +59,8 @@ It render an intelligent material-ui table based on the following props:
   ]
   ```
   
+### Example
+
 ```
 const headers = [
     {
