@@ -1,0 +1,32 @@
+{
+  "name": "materialized-reactions",
+  "version": "0.1.0",
+  "description": "Materialized Reactions first release with an SmartTable",
+  "scripts": {
+    "build": "npm run build:babel && npm run build:copy-files && npm run build:es",
+    "build:copy-files": "babel-node ./scripts/copy-files.js",
+    "build:es-index": " cross-env BABEL_ENV=es babel ./src/index.js --out-file ./build/index.es.js",
+    "build:babel": "cross-env NODE_ENV=release babel ./src --out-dir ./build --ignore spec.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gisce/materialized-reactions"
+  },
+  "keywords": [
+    "react",
+    "react-component",
+    "material-ui",
+    "material",
+    "material-design"
+  ],
+  "author": "https://github.com/xavitorello, https://github.com/gisce",
+  "license": "aGPL",
+  "devDependencies": {
+      "prop-types": "^15.5.10",
+      "react": "^15.5.4",
+      "react-dom": "^15.5.4",
+      "rimraf": "^2.6.1",
+      "webpack": "^1.15.0"
+  },
+  "dependencies": {}
+}
