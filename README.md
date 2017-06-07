@@ -10,12 +10,15 @@ Abstract React components that extend [material-UI](/callemall/material-ui) lib.
 
 - [\<SmartTable>](/examples/SmartTable) [WIP]
   - Render an intelligent material-ui table
+- [\<LoadingAnimation>](/examples/LoadingAnimation)
+  - Render a loading animation that never stops
 
 ## Installation
 
-npm package will be uploaded, WIP
-
-So far, manual deployment can be performed using the development build (see section Development).
+Install npm package:
+```
+$ npm install materialized-reactions
+```
 
 ## Development 
 
