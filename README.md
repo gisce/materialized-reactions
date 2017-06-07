@@ -15,9 +15,10 @@ Abstract React components that extend [material-UI](/callemall/material-ui) lib.
 
 ## Installation
 
-npm package will be uploaded, WIP
-
-So far, manual deployment can be performed using the development build (see section Development).
+Install npm package:
+```
+$ npm install materialized-reactions
+```
 
 ## Development 
 
