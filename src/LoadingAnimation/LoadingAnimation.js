@@ -10,7 +10,7 @@ const styles = {
     }
 };
 
-export class LoadingAnimation extends Component {
+class LoadingAnimation extends Component {
     render() {
         return  (
 
@@ -26,3 +26,5 @@ export class LoadingAnimation extends Component {
 
 LoadingAnimation.propTypes = {
 };
+
+export default LoadingAnimation;
