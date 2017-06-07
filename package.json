@@ -1,6 +1,6 @@
 {
   "name": "materialized-reactions",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Materialized Reactions first release with an SmartTable",
   "scripts": {
     "build": "npm run clean:build && npm run build:babel && npm run build:es && npm run build:copy",
