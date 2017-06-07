@@ -10,6 +10,8 @@ Abstract React components that extend [material-UI](/callemall/material-ui) lib.
 
 - [\<SmartTable>](/examples/SmartTable) [WIP]
   - Render an intelligent material-ui table
+- [\<LoadingAnimation>](/examples/LoadingAnimation)
+  - Render a loading animation that never stops
 
 ## Installation
 
