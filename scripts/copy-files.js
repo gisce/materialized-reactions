@@ -57,7 +57,7 @@ function createPackageFile() {
     } = packageData;
 
     const minimalPackage = {
-      name: 'material-ui',
+      name: 'materialized-reactions',
       author,
       version,
       description,
